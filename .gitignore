@@ -1,0 +1,29 @@
+# Python virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build artifacts and locally supplied native DLL
+**/build/
+**/bin/
+**/obj/
+**/dist/
+*.spec
+*.exe
+*.dll
+*.pdb
+*.obj
+
+# Editors and OS
+.vscode/
+.idea/
+.vs/
+.DS_Store
+Thumbs.db
+
+# Local test scratch
+**/tests/tmp*/
